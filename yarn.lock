@@ -3420,7 +3420,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-"react-dom@npm:@preact/compat", "react@npm:@preact/compat":
+"react-dom@npm:@preact/compat":
   version "17.1.1"
   resolved "https://registry.npmjs.org/@preact/compat/-/compat-17.1.1.tgz#60a657ffe7d9830ceefc7ae44fcfce589c5acf23"
   integrity sha512-OjQJ6oVcjFTiKWs4MIoE/cORFFGhqnt1RO0uxGNAFUglBMPNahMDJyX5w+qEOEaOpaNTLM1L3ixc2bFEpxgs3A==
@@ -3434,6 +3434,11 @@ react-is@^16.13.1:
   version "1.2.0"
   resolved "https://registry.npmjs.org/preact-ssr-prepass/-/preact-ssr-prepass-1.2.0.tgz#f9c0545f18117971dcc6a09dbc3014067acce583"
   integrity sha512-UKz6FB2+KepjHQ6aGqiTUMZfGgdoTunxtByczdUNho9UvSRTJw31Np9J+wUSAlJ1kALJGX1BpcBLvO3iohQUSA==
+
+"react@npm:@preact/compat":
+  version "17.1.1"
+  resolved "https://registry.npmjs.org/@preact/compat/-/compat-17.1.1.tgz#60a657ffe7d9830ceefc7ae44fcfce589c5acf23"
+  integrity sha512-OjQJ6oVcjFTiKWs4MIoE/cORFFGhqnt1RO0uxGNAFUglBMPNahMDJyX5w+qEOEaOpaNTLM1L3ixc2bFEpxgs3A==
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -3940,13 +3945,13 @@ svgo@^3.3.2:
     csso "^5.0.5"
     picocolors "^1.0.0"
 
-swr@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/swr/-/swr-2.3.0.tgz#66fa45023efd4199f4e7ce608c255709a135943d"
-  integrity sha512-NyZ76wA4yElZWBHzSgEJc28a0u6QZvhb6w0azeL2k7+Q1gAzVK+IqQYXhVOC/mzi+HZIozrZvBVeSeOZNR2bqA==
+swr@^2.3.6:
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/swr/-/swr-2.3.8.tgz#aa15596321a34e575226a60576bade0b57adf7bf"
+  integrity sha512-gaCPRVoMq8WGDcWj9p4YWzCMPHzE0WNl6W8ADIx9c3JBEIdMkJGMzW+uzXvxHMltwcYACr9jP+32H8/hgwMR7w==
   dependencies:
     dequal "^2.0.3"
-    use-sync-external-store "^1.4.0"
+    use-sync-external-store "^1.6.0"
 
 synckit@^0.9.1:
   version "0.9.1"
@@ -4184,10 +4189,10 @@ use-sync-external-store@1.2.0:
   resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
   integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
 
-use-sync-external-store@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.4.0.tgz#adbc795d8eeb47029963016cefdf89dc799fcebc"
-  integrity sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==
+use-sync-external-store@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz#b174bfa65cb2b526732d9f2ac0a408027876f32d"
+  integrity sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==
 
 util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
