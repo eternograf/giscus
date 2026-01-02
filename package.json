@@ -36,7 +36,7 @@
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
     "react-ssr-prepass": "npm:preact-ssr-prepass",
-    "swr": "^2.3.0"
+    "swr": "^2.3.7"
   },
   "devDependencies": {
     "@types/dompurify": "^3.2.0",
